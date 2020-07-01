@@ -31,9 +31,9 @@ function decrement(n) {
   n--;
   return n;
 }
-function makeInt(n,base) {
-  const parse = parseInt('0', 10);
-  return parse;
+function makeInt(n) {
+  parseInt('0', 10);
+  return n;
 }
 function preserveDecimal(n) {
   parseFloat('n');
