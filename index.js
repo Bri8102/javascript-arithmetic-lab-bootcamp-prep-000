@@ -32,7 +32,8 @@ function decrement(n) {
   return n;
 }
 function makeInt(n) {
-  parseInt('0', 10);
+  var base = 10;
+  parseInt('0', base);
   return n;
 }
 function preserveDecimal(n) {
