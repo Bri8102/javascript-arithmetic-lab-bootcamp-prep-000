@@ -31,11 +31,11 @@ function decrement(n) {
   n--;
   return n;
 }
-function makeInt(n, base) {
-  parseInt('0', 10);
+function makeInt(String) {
+  parseInt('0', 10);stri
   return n;
 }
-function preserveDecimal(n) {
+function preserveDecimal(string) {
   parseFloat('2.222');
   return n;
 }
